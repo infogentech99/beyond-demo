@@ -43,6 +43,7 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
         alt="wedding-photo"
         className="object-cover absolute lg:top-9 md:top-4 lg:right-9 top-2 right-2 w-auto md:right-4 lg:h-106 h-30 md:h-50"
       />
+    
       <img
         src="/assets/headerImg.png"
         alt="wedding-photo"
