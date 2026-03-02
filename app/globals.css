@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-primary: #A7783A;
+  box-sizing: border-box;
+  overflow-x :hidden;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom Fonts */
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/KumbhSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/KumbhSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-Parisienne {
+  font-family: 'Parisienne', serif;
+}
+.font-Jacques {
+  font-family: 'Jacques Francois Shadow', serif;
+}
+.font-Jacques-plain {
+  font-family: 'Jacques Francois', serif;
+}
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-kumbh-sans {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+
+.curved-edge {
+  --c: 120px; 
+  mask: radial-gradient(60% var(--c) at bottom, #0000 calc(100% - 2px), #000);
+  -webkit-mask: radial-gradient(60% var(--c) at bottom, #0000 calc(100% - 2px), #000);
+}
+
+@media (min-width: 640px) {
+  .curved-edge {
+    --c: 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .curved-edge {
+    --c: 250px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .curved-edge {
+    --c: 300px;
+  }
+}
+
+/* .swiper {
+  padding: 0px !important;
+  margin: 20px !important;
+} */
+
+
+@keyframes flower-fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0.8;
+  }
+}
+
+.flower {
+  position: absolute;
+  animation-name: flower-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
