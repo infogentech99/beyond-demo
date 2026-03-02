@@ -1,6 +1,6 @@
 "use client";
 
-import Instagram from "next-auth/providers/instagram";
+// import Instagram from "next-auth/providers/instagram";
 import React from "react";
 
 interface SvgIconProps {

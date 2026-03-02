@@ -41,21 +41,21 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
       <img
         src="/assets/headerImg.png"
         alt="wedding-photo"
-        className="object-cover absolute lg:top-9 md:top-4 lg:right-9 top-2 right-2 w-auto md:right-4 top-1 right-1 w-1.5 lg:h-106 h-30 md:h-50 h-15"
+        className="object-cover absolute lg:top-9 md:top-4 lg:right-9 top-2 right-2 w-auto md:right-4 lg:h-106 h-30 md:h-50"
       />
       <img
         src="/assets/headerImg.png"
         alt="wedding-photo"
-        className="object-cover absolute lg:top-9 md:top-4 lg:left-9 top-2 left-2 w-auto md:left-4 top-1 left-1 w-1.5 lg:h-106 h-30 scale-x-[-1] md:h-50 h-15"
+        className="object-cover absolute lg:top-9 md:top-4 lg:left-9 top-2 left-2 w-auto md:left-4 lg:h-106 h-30 scale-x-[-1] md:h-50"
       />
-      <p className=" lg:text-[42px] text-xl  text-center absolute left-1/2 -translate-x-1/2 md:text-[21px] lg:top-[294px] top-2/20 uppercase leading-[120%] md:top-[120px]">
+      <p className=" lg:text-[42px] text-xl  text-center absolute left-1/2 -translate-x-1/2 md:text-[21px] lg:top-73.5 top-2/20 uppercase leading-[120%] md:top-30">
         meet the <br />
         <span className="lg:text-[78px] leading-[120%] md:text-[39px] text-xl">
           bride and
           <br /> groom
         </span>
       </p>
-      <p className=" lg:text-[27px] text-xs  text-center absolute left-1/2 -translate-x-1/2 md:text-[14px] lg:top-[570px] top-4/20 leading-[120%] w-full px-5 md:max-w-6xl md:top-[285px]">
+      <p className=" lg:text-[27px] text-xs  text-center absolute left-1/2 -translate-x-1/2 md:text-[14px] lg:top-142.5 top-4/20 leading-[120%] w-full px-5 md:max-w-6xl md:top-71.25">
         We are both so delighted that you are able to join us in celebrating
         what we hope will be one of the happiest days of our lives. The
         affection shown to us by so many people since our roka has been
@@ -88,10 +88,10 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
           />
         </div>
       </div>
-      <p className=" lg:text-5xl text-xl  text-center absolute left-1/2 -translate-x-1/2 md:text-2xl text-xl  text-center absolute left-1/2 -translate-x-1/2 lg:top-12/18 top-12/20 md:top-12/18 top-12/20">
+      <p className=" lg:text-5xl text-xl  text-center absolute left-1/2 -translate-x-1/2 md:text-2xl lg:top-12/18 top-12/20 md:top-12/18">
         Please <br /> rsvp
         <br />
-        <span className="lg:text-2xl text-xs md:text2xl text-xs leading-6">
+        <span className="lg:text-2xl text-xs md:text2xl leading-6">
           Click to message on WhatsApp
         </span>
         <br />
@@ -100,7 +100,7 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute  left-1/2 -translate-x-1/2 lg:top-13/18 mt-10 top-14/20 md:top13/28 mt-5 top-14/20"
+        className="absolute  left-1/2 -translate-x-1/2 lg:top-13/18 mt-10 top-14/20 md:top13/28 "
         animate={{
           y: [0, -15, 0],
           scale: [1, 1.1, 1],
@@ -131,7 +131,7 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
       <motion.img
         src="/assets/horse1.png"
         alt="wedding-photo"
-        className="object-cover absolute lg:-bottom-10 -bottom-5 left-1/2 -translate-x-1/2 md:-bottom-5 left-1/2 -translate-x-1/2 lg:h-132 h-40 z-100 md:h-65 h-20 z-50"
+        className="object-cover absolute lg:-bottom-10 -bottom-5 left-1/2 -translate-x-1/2 md:-bottom-5 lg:h-132 h-40 z-100 md:h-65"
       />
     </section>
   );
