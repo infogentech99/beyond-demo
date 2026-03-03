@@ -157,7 +157,7 @@ const getIconAnimation = (type: IconAnimation, delay = 0) => {
 const TempHero = ({
   groomName = "Abhishek",
   brideName = "Kanika",
-  heroImage = "/assets/couple.png",
+  heroImage = "/assets/couple.webp",
 }: TempHeroProps) => {
   return (
     <section className="relative w-full overflow-hidden">

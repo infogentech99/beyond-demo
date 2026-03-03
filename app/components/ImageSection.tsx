@@ -34,7 +34,7 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
   return (
     <section className="w-full relative text-[#F2CD93] font-Jacques-plain">
       <img
-        src="/assets/ImageSectionBg.png"
+        src="/assets/ImageSectionBg.webp"
         alt="wedding-photo"
         className="object-cover lg:h-full h-200  w-full md:h-340 "
       />
@@ -90,7 +90,7 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
         </div>
       </div>
       <p className=" lg:text-5xl text-xl  text-center absolute left-1/2 -translate-x-1/2 md:text-2xl lg:top-12/18 top-12/20 md:top-12/18">
-        Please <br /> rsvp
+        PLEASE <br /> RSVP
         <br />
         <span className="lg:text-2xl text-xs md:text2xl leading-6">
           Click to message on WhatsApp
