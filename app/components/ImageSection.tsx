@@ -39,14 +39,14 @@ const ImageSection = ({ whatsappLink, images }: ImageSectionProps) => {
         className="object-cover lg:h-full h-200  w-full md:h-340 "
       />
       <img
-        src="/assets/headerImg.png"
-        alt="wedding-photo"
+        src="/assets/meetheader.webp"
+        alt="wedding-photo1"
         className="object-cover absolute lg:top-9 md:top-4 lg:right-9 top-2 right-2 w-auto md:right-4 lg:h-106 h-30 md:h-50"
       />
     
       <img
-        src="/assets/headerImg.png"
-        alt="wedding-photo"
+        src="/assets/meetheader.webp"
+        alt="wedding-photo2"
         className="object-cover absolute lg:top-9 md:top-4 lg:left-9 top-2 left-2 w-auto md:left-4 lg:h-106 h-30 scale-x-[-1] md:h-50"
       />
       <p className=" lg:text-[42px] text-xl  text-center absolute left-1/2 -translate-x-1/2 md:text-[21px] lg:top-73.5 top-2/20 uppercase leading-[120%] md:top-30">
