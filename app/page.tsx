@@ -24,10 +24,11 @@ export default function Home() {
       <span className="text-[16px] font-semibold">
         Exit Preview
       </span>
-
     </button>
   </a>
 </div>
+
+
     </div>
   );
 }
